@@ -1,6 +1,8 @@
 #!/bin/bash
 
-fdisk /dev/sdc << EOF
+DISCO="/dev/sdb"
+
+fdisk $DISCO << EOF
 o
 n
 p
@@ -19,18 +21,24 @@ e
 
 n
 l
-+2666M
+
++3G
 n
 l
-+2666M
+
++3G
 n
 l
-+2666M
+
++3G
 w
 EOF
-mkfs.ext4 /dev/sdc1
-mkfs.ext4 /dev/sdc2
-mkfs.ext4 /dev/sdc5
-mkfs.ext4 /dev/sdc6
-mkfs.ext4 /dev/sdc7
+
+partprobe $DISCO
+
+mkfs.ext4 ${DISCO}1
+mkfs.ext4 ${DISCO}2
+mkfs.ext4 ${DISCO}5
+mkfs.ext4 ${DISCO}6
+mkfs.ext4 ${DISCO}7
 
