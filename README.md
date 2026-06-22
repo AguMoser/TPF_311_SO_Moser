@@ -1,4 +1,4 @@
-# TP Sistemas Operativos - Trabajo Práctico
+# TP Sistemas Operativos 
 
 ## Integrantes del grupo
 
