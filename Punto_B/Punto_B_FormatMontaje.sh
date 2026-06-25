@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo "=== Formateo de particiones ext4 ==="
 
 mkfs.ext4 /dev/sdc1
