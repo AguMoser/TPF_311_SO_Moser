@@ -1,0 +1,3 @@
+MemTotal:        2010780 kB
+model name	: AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx
+cpu MHz		: 1996.239
