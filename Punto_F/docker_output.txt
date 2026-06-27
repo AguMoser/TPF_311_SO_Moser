@@ -1,0 +1,4 @@
+    Name                   Command               State                  Ports                
+---------------------------------------------------------------------------------------------
+agustinadb      docker-entrypoint.sh mariadbd    Up      3306/tcp                            
+wordpress_utn   docker-entrypoint.sh apach ...   Up      0.0.0.0:8080->80/tcp,:::8080->80/tcp
