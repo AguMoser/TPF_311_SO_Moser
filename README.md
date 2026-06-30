@@ -1,4 +1,4 @@
-# Trabajo Práctico Final – Arquitctura de Sistemas Operativos
+# Trabajo Práctico Final – Arquitectura de Sistemas Operativos
 
 ## Integrantes del grupo
 
@@ -10,7 +10,7 @@
 
 ## Descripción
 
-Este repositorio contiene la resolución del Trabajo Práctico Final de la materia.
+Este repositorio contiene la resolución del trabajo práctico final de la materia **Arquitectura de Sistemas Operativos**.
 
 El objetivo del proyecto fue aplicar conceptos de administración de sistemas Linux mediante la automatización de tareas propias de un administrador de infraestructura utilizando scripts Bash y herramientas nativas del sistema.
 
